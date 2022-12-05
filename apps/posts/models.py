@@ -1,6 +1,6 @@
 from django.db import models
 from cloudinary.models import CloudinaryField
-
+from apps.categories.models import Category
 
 class Post(models.Model):
     class Meta(object):

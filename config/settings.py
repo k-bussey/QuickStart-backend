@@ -47,6 +47,8 @@ INSTALLED_APPS = [
     'corsheaders',
     'rest_framework',
     'apps.posts',
+    'apps.categories',
+    'apps.movies',
 ]
 
 MIDDLEWARE = [
